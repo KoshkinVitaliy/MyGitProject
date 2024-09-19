@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Example.test();
+        Human human = new Human("Andrew", 35);
+        human.showInfo();
     }
 }
